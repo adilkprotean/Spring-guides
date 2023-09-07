@@ -20,6 +20,7 @@ public class ConsumingRestApplication {
 
 	@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
+		System.out.print("HELLO");
 		return builder.build();
 	}
 
